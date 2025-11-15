@@ -1,0 +1,23 @@
+[
+  {
+    "architecture": "resnet",
+    "val_accuracy": 76.78868552412645,
+    "training_time": 462.6810607910156,
+    "epochs_trained": 6,
+    "model_path": "data/resnet_quick_model.pth"
+  },
+  {
+    "architecture": "mobilenet",
+    "val_accuracy": 83.52745424292846,
+    "training_time": 411.5418813228607,
+    "epochs_trained": 6,
+    "model_path": "data/mobilenet_quick_model.pth"
+  },
+  {
+    "architecture": "efficientnet",
+    "val_accuracy": 84.44259567387687,
+    "training_time": 543.2266459465027,
+    "epochs_trained": 6,
+    "model_path": "data/efficientnet_quick_model.pth"
+  }
+]

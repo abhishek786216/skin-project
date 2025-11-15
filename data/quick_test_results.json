@@ -1,0 +1,34 @@
+{
+  "ResNet": {
+    "test_accuracy": 0.7,
+    "val_accuracy": 72.5,
+    "params": {
+      "batch_size": 16,
+      "dropout_rate": 0.5,
+      "epochs": 3,
+      "hidden_size": 256,
+      "lr": 0.001,
+      "optimizer": "adam",
+      "patience": 2,
+      "weight_decay": 0.0001
+    },
+    "model_size": 11309639,
+    "trainable_params": 4854791
+  },
+  "MobileNet": {
+    "test_accuracy": 0.675,
+    "val_accuracy": 65.0,
+    "params": {
+      "batch_size": 16,
+      "dropout_rate": 0.5,
+      "epochs": 3,
+      "hidden_size": 256,
+      "lr": 0.001,
+      "optimizer": "adam",
+      "patience": 2,
+      "weight_decay": 0.0001
+    },
+    "model_size": 3251767,
+    "trainable_params": 1232695
+  }
+}
